@@ -9,19 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.12.5",
+    "@web3modal/wagmi": "^5.1.11",
+    "dao-dashboard": "file:",
+    "ethers": "^6.13.5",
+    "graphql": "^16.10.0",
+    "next": "15.1.4",
+    "openai": "^4.78.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.4"
+    "viem": "^2.22.8",
+    "wagmi": "^2.14.7"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.4",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20.17.12",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "^15.1.4",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
   }
 }
